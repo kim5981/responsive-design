@@ -2,7 +2,7 @@
     color: white;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
-    font-size: 2.8rem;
+    font-size: 16px;
   }
   
   p{
@@ -15,10 +15,38 @@
 
 
     body {
-      background-color: rgb(144, 196, 238);
+      background-color: rgb(0, 0, 0);
+    }
+
+    btn{
+        
+        border: solid red 10px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 10px;
+        width: 10px;
+    }
+
+    p{
+        font-size: 5.5rem;
+    }
+
+    button{
+        height: 50px;
+        width: 20%;
+        border: none;
+        padding: 1%;
+        border-radius: 15px;
+        margin-top: 1%;
+        background-color: white;
+        color: black;
+        font-size: 1;
+        font-weight: 400;
     }
   
-    div{
+    .row-1{
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -29,7 +57,7 @@
     #box1{
       display: flex;
       background-color: rgb(0, 0, 0);
-      height: 100vh;
+      height: 50vh;
       align-items: center;
     }
   
@@ -41,7 +69,7 @@
     padding-bottom: 0;
     }
   
-  
+   
   
   
     #box2{
@@ -218,7 +246,7 @@
   }
 
 
-  
+
   /* LARGE SCREEN */
 @media screen and (min-width: 1920px) {
 
