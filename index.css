@@ -23,7 +23,9 @@
     }
 
     p{
-        font-size: 5.5rem;
+        font-size: 1.3rem;
+        width: 60%;
+        text-align: justify;
     }
 
     button{
