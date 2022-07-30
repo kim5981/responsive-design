@@ -29,6 +29,14 @@
       font-size: 5.5rem;
     }
 
+    .text{
+      color: white
+    }
+
+    .contrast{
+      border: 2px solid cyan;
+    }
+
     p{
         font-size: 1.3rem;
         text-align: justify;
