@@ -280,11 +280,28 @@
     body {
       background-color: rgb(240, 201, 116);
     }
+
+    #btn{
+      background-color: rgb(235, 194, 194);
+      height: 2%;
+    }
+
+    #btn p{
+      display: none;
+
+    }
   
     .top{
       display: flex;
       flex-direction: row;
       width: 100%;
+    }
+
+    button{
+      padding: 0;
+      background-color:rgb(235, 194, 194);
+      border: none;
+      text-shadow: rgb(194, 162, 162) 2px 2px 8px;
     }
   
     .row-1{
@@ -303,7 +320,7 @@
     #box1{
       display: flex;
       height: 20vh;
-      background-color: rgb(235, 93, 93);
+      background-color: rgb(235, 121, 121);
     }
   
     #text2{
@@ -356,24 +373,27 @@
     #box6{
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
       padding: 5%;
-      /* height: max-content; */
       background-color: rgb(240, 201, 116);
     }
 
     #summary{
       text-align: justify;
-      padding: 2%;
+      padding: 1%;
       font-size: 1.2rem;
       display: flex;
       color:white;
-      width: 100%;
+      width: 50%;
     }
 
     a{
       font-size: 1rem;
       display: flex;
       color:white;
+      justify-content: center;
+      align-items: center;
     }
   
   
