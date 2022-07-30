@@ -177,7 +177,28 @@
 @media screen and (min-width: 1024px) {
 
     body {
-      background-color: rgb(108, 85, 138);;
+      background-color: rgb(96, 204, 207);
+    }
+
+    #btn{
+      background-color: rgb(165, 204, 204);
+      /* background-image: 
+      linear-gradient( to right
+        rgb(96, 204, 207),
+        /* rgb(58, 153, 190), */
+        /* rgb(69, 88, 141) */
+      /* ); */
+    }
+
+    button{
+      background-color: rgb(165, 204, 204);
+      border: solid white 2px;
+      padding: 1%;
+      margin: 2%;
+    }
+
+    p{
+      color: rgb(165, 204, 204);
     }
   
     .top{
@@ -194,17 +215,6 @@
       width: 33.33%;
     }
   
-    p{
-      display: none;
-      color: rgb(96, 204, 207);
-      width: 100%;
-    }
-
-    a{
-      display: none;
-      color: rgb(96, 204, 207);
-    }
-
     h1{
       padding: 1%;
       font-size: 2rem;
