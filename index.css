@@ -15,6 +15,7 @@
   }
  
   .contrast{
+    color: white;
     border: 2px solid cyan;
     background-color: black;
   }
@@ -100,6 +101,8 @@
     #box6{
       display: none;
     }
+
+    
   
   }
 
@@ -109,6 +112,7 @@
 
 @media screen and (min-width: 768px) {
 
+   
     body {
       background-color: rgb(165, 196, 137);
     }
@@ -185,6 +189,18 @@
     #box6{
       display: none;
     }
+
+   /* HIGH-CONTRAST MODE*/
+   .show{
+    color: white
+  }
+ 
+  .contrast{
+    color: white;
+    border: 2px solid cyan;
+    background-color: black;
+  }
+  
   
   }
   
@@ -279,6 +295,18 @@
     #box6{
       display: none;
     }
+
+    /* HIGH-CONTRAST MODE*/
+  .show{
+    color: white
+  }
+ 
+  .contrast{
+    color: white;
+    border: 2px solid cyan;
+    background-color: black;
+  }
+  
   
   }
 
@@ -406,6 +434,18 @@
       justify-content: center;
       align-items: center;
     }
+
+    /* HIGH-CONTRAST MODE*/
+  .show{
+    color: white
+  }
+ 
+  .contrast{
+    color: white;
+    border: 2px solid cyan;
+    background-color: black;
+  }
+  
   
   
   }
